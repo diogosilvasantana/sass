@@ -1,0 +1,81 @@
+@charset "UTF-8";
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/* TABS */
+.tabs {
+  background-color: #FFF;
+  border-right: solid 1px #d1d5db; }
+  .tabs .tab {
+    display: inline-block;
+    position: relative;
+    padding: 10px 0;
+    border-right: solid 1px #d1d1d1; }
+    .tabs .tab a {
+      margin-left: -4px;
+      padding: 10px 30px;
+      color: #000;
+      font-family: "Verdana", Geneva, sans-serif;
+      text-decoration: none; }
+      .tabs .tab a.active {
+        background-color: #ea7c00;
+        color: #fff; }
+      .tabs .tab a:hover {
+        border-bottom: solid 2px #ea7c00; }
+      .tabs .tab a.active:hover {
+        border-bottom: none; }
+
+/* VARIÁVES */
+/* GENÉRICO */
+.menu {
+  margin: 20px;
+  float: left; }
+  .menu .link {
+    margin: 0;
+    padding: 0; }
+    .menu .link.vertical {
+      display: block; }
+    .menu .link.horizontal {
+      margin: 0 -2px;
+      display: inline-block; }
+    .menu .link a {
+      display: block;
+      text-align: center;
+      font-family: "Arial";
+      text-decoration: none; }
+
+/* MENU */
+.menu_blue {
+  border: 2px solid blue; }
+  .menu_blue .vertical {
+    border-bottom: 1px solid blue; }
+  .menu_blue .horizontal {
+    border-right: 1px solid blue; }
+  .menu_blue :last-child {
+    border: none; }
+  .menu_blue a {
+    padding: 10px;
+    color: blue; }
+    .menu_blue a:hover, .menu_blue a.active {
+      background-color: blue;
+      color: white; }
+
+/* MENU BIG */
+.menu_orange {
+  margin: 20px;
+  float: left;
+  border: 0; }
+  .menu_orange a {
+    background-color: orange;
+    padding: 20px;
+    color: white; }
+    .menu_orange a:hover, .menu_orange a.active {
+      background-color: white;
+      color: orange; }
+
+/*# sourceMappingURL=main.css.map */
